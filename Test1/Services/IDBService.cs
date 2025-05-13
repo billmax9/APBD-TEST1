@@ -7,4 +7,6 @@ public interface IDBService
 
     Task<DeliveryResponseDto> FindDeliveryByIdAsync(int id);
 
+    Task AddNewDeliveryAsync(DeliveryRequestDto dto);
+
 }
